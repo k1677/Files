@@ -76,7 +76,7 @@ async def flood(i: discord.Interaction, message: str):
     
     view = FloodButton(message)
     await i.response.send_message(
-        content="## Control Panel\nJoin for more:\nhttps://discord.gg/rougekin\nhttps://discord.gg/bZDFTVHC7", 
+        content="## Control Panel\nJoin for more:\nhttps://discord.gg/SYekAhU5NY", 
         view=view, 
         ephemeral=True
     )
